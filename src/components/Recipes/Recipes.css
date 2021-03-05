@@ -1,0 +1,72 @@
+.container {
+  width: 40%;
+  border: 1px solid black;
+  margin: auto;
+}
+.innerContainer {
+  padding: 0 10% 5% 10%;
+}
+
+h1 {
+  text-align: left;
+}
+input {
+  border: 2px solid black;
+  margin-right: 60%;
+  margin-bottom: 20px;
+  padding: 5px 5px;
+  line-height: 10px;
+}
+.recipeContainer {
+  border: 2px solid black;
+}
+p {
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  margin-left: 10px;
+}
+button {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 1px 0 #c04131;
+  border: 1px solid;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  border-color: #dd4b39;
+  float: right;
+  background-image: linear-gradient(#dd4b39, #d14836);
+  margin-top: 10px;
+  margin-right: 10px;
+}
+button:hover {
+  background-image: linear-gradient(#dd4b39, #c53727);
+  border-color: #af301f;
+}
+button:active {
+  background-image: linear-gradient(#d74736, #ad2719);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+h2 {
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 10px;
+}
+.pagination {
+  border: solid 2px black;
+  display: inline-block;
+  width: 25px;
+  height: 35px;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 30px 10px 0 0;
+  line-height: 33px;
+  cursor: pointer;
+}
+.pagination:active {
+  background-color: red;
+}
